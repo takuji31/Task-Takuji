@@ -42,6 +42,23 @@
       },
       "runtime" : {
          "requires" : {
+            "Amon2" : "0",
+            "Amon2::Lite" : "0",
+            "AnyEvent" : "0",
+            "App::cpanoutdated" : "0",
+            "App::ph" : "0",
+            "App::pmuninstall" : "0",
+            "Carton" : "0",
+            "Coro" : "0",
+            "DBD::SQLite" : "0",
+            "DBD::mysql" : "0",
+            "DBI" : "0",
+            "DBIx::Class" : "0",
+            "DBIx::Class::Schema::Loader" : "0",
+            "EV" : "0",
+            "Minilla" : "0",
+            "Project::Libs" : "0",
+            "Server::Starter" : "0",
             "perl" : "5.008005"
          }
       },
@@ -52,5 +69,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/takuji31/Task-Takuji/issues"
+      },
+      "homepage" : "https://github.com/takuji31/Task-Takuji",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/takuji31/Task-Takuji.git",
+         "web" : "https://github.com/takuji31/Task-Takuji"
+      }
+   },
    "version" : "0.01"
 }
